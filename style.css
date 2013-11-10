@@ -1,4 +1,4 @@
-#basebody{
+﻿#basebody{
     background-color: #FFFFFF;
     margin: auto auto;
     max-width: 1500px;
@@ -8,7 +8,7 @@
     Meiryo, メイリオ, sans-serif;
 }
 #logo{
-    background-image: url("/static/images/logo.png");
+    background-image: url("logo.png");
     margin: auto auto;
     width: 806px;
     height: 206px;
