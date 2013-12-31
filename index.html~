@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,100' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen, projection" />
     <link rel="stylesheet" type="text/css" href="css/flat-ui.css" media="screen, projection" />
@@ -12,9 +11,9 @@
 </head>
 <body id="basebody">
     <div id="logo"></div>
-    <a href="index.html" class="btn btn-primary">Top</a>
+    <a href="index.html" class="btn btn-inverse">Top</a>
     <a href="about.html" class="btn btn-primary">About</a>
-    <a href="products.html" class="btn btn-inverse">作ったもの</a>
+    <a href="products.html" class="btn btn-primary">作ったもの</a>
     <a href="http://www.twitter.com/haru2036" class="btn btn-info">Twitter</a>
     <a href="https://github.com/haru2036" class="btn btn-info">github</a>
     <a href="http://haru2036.hatenablog.com" class="btn btn-info">はてなブログ</a>
@@ -24,14 +23,8 @@
     <a href="http://www.mixcloud.com/haru2036/" class="btn btn-info">Mixcloud</a>
     <a href="http://www.flickr.com/photos/75151585@N07/" class="btn btn-info">Flickr</a>
     <a href="http://pixiv.me/haru2036" class="btn btn-info">pixiv</a>
+    <h1>なんとなく移転。</h1>
+   <p class="lead">さすがにたんぶらだけじゃね……ってなっちゃったので一応ばしょうつしたよ。<br />とりあえずリンクするのと固定ページしか当面置かないよ。</p>
 
-     <h1>Botの説明書とか。</h1>
-   <p class="lead">
-       俺氏製のBotはサイボウズ・ラボユースの成果物であるHanashi Engineで動作しています。開発にあたり支援してくださったサイボウズ・ラボの皆さん、本当にありがとうございました！現在もちょくちょく機能拡張してたりしますがいかんせんバラけすぎちゃってどうやって公開しようか……
-       <br />
-       現在フル稼働中なのは<a href="http://www.twitter.com/srclikebot">@srclikebot</a>です。機能拡張もこれに対して行ってたりします。<br />
-       こいつはうちの大学の部活の部員たちのツイートを学習して勝手にしゃべります。最近ふぁぼ欄から学習してふぁぼるようにもなりました。<br />
-       かなり投稿スピード早いです。その上ふぁぼ魔です。調整難しい……
-   </p>
 </body>
 </html>

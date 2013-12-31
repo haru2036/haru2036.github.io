@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Exo+2:400,100' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen, projection" />
     <link rel="stylesheet" type="text/css" href="css/flat-ui.css" media="screen, projection" />
@@ -25,13 +24,14 @@
     <a href="http://www.flickr.com/photos/75151585@N07/" class="btn btn-info">Flickr</a>
     <a href="http://pixiv.me/haru2036" class="btn btn-info">pixiv</a>
 
-     <h1>Botの説明書とか。</h1>
-   <p class="lead">
-       俺氏製のBotはサイボウズ・ラボユースの成果物であるHanashi Engineで動作しています。開発にあたり支援してくださったサイボウズ・ラボの皆さん、本当にありがとうございました！現在もちょくちょく機能拡張してたりしますがいかんせんバラけすぎちゃってどうやって公開しようか……
+  <h1>つくったもの。</h1>
+   <p class="lead">わりかしどうでもいいものがほとんどだけどその中の一部の取説とか。現在公開してるのはだいたい
+       <a href="https://github.com/haru2036" class="btn btn-info">github</a>
+       にあるのでそちらからどうぞ。
        <br />
-       現在フル稼働中なのは<a href="http://www.twitter.com/srclikebot">@srclikebot</a>です。機能拡張もこれに対して行ってたりします。<br />
-       こいつはうちの大学の部活の部員たちのツイートを学習して勝手にしゃべります。最近ふぁぼ欄から学習してふぁぼるようにもなりました。<br />
-       かなり投稿スピード早いです。その上ふぁぼ魔です。調整難しい……
    </p>
+    <p>
+        <a href="bots.html">Bot取説</a>
+    </p>
 </body>
 </html>
