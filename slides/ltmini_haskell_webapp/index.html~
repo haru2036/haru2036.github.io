@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>HaskellでWebアプリ作ってみた</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="solarized">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section data-markdown
+                    data-separator="\n---\n$"
+                    data-vertical="\n--\n">
+                    # HaskellでWeb
+                    ### @haru2036
+
+                    ---
+
+                    ## お前だれよ
+                    * @haru2036
+                    * 自然言語処理とかHaskellとか
+                    * ソフ研Bot作ったりも
+                    * プヨグヤミング、自作PC、ドール、写真、音楽(Hardcoreとか)
+
+                    ---
+
+                    ## Webアプリ作りたい？
+                    * Rails
+                    * Django
+                    * Flask
+                    を試した。
+
+                    --
+
+                    ## Rails
+                    * Ruby製のフルスタックフレームワーク
+                    * だいたいなんでも揃ってる
+                    * 楽ちん
+                      
+                    →Ruby覚えるのめんどくさいので今回は却下
+                      
+                    ![Ruby](images/ruby.png)
+                    ![Rails](images/rails.png)
+
+                    --
+
+                    ## Django
+                    * Python製のフルスタック
+                    * だいたいなんでも（ｒｙ
+                    * 楽ちん
+                      
+                    →なんかIntelliJがエラーはいてにっちもさっちも行かなくなったので却下(アカン)
+                      
+                    ![Python](images/python.png)
+                    ![Django](images/django.png)
+
+                    --
+
+                    ## Flask
+                    * Python製のマイクロフレームワーク
+                    * 軽量で好きなモノを追加して使う
+                      
+                    →必要なものそれぞれ集めてくるの面倒臭かったので却下
+                      
+                    ![Python](images/python.png)
+                    ![Flask](images/flask.png)
+
+
+                    ---
+
+                    ## どうするよ
+
+                    --
+
+                    ## 「お前の目の前にある箱のなかに入ってるλっぽい言語処理系はなんのためにあるんだ」
+
+                    --
+                    
+                    ## !!!!!
+
+                    ---
+
+                    ## Yesod
+                    * Haskell製のフルスタックフレームワーク
+                    * 大体なん(ry
+                    * 楽ちん
+                    * Haskellの強力な型システムによって堅牢な構造になっている
+                      
+                    ![Haskell](images/haskell.png)
+                    ![Yesod](images/yesod.png)
+
+                    ---
+
+                    ## つかってみた
+
+
+
+                </section>
+
+            </div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
